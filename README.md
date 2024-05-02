@@ -42,10 +42,7 @@ if to_country_code == "Not found":
     to_country_name = input("Enter the country name that you want to convert to: ")
     to_country_code = get_currency_code(to_country_name, currency_codes)
 
-
-
-  #CurrencyCode Converter
-
+# Currency Code Converter
 import requests
 url = 'http://api.exchangeratesapi.io/v1/latest?access_key=96db186baf3a08d762372b34f9226864'
 
